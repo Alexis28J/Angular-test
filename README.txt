@@ -22,3 +22,15 @@ https://www.dnd5eapi.co/ - L'API di D&D 5a Edizione (spesso nota come dnd5eapi) 
 basandosi principalmente sulla Systems Reference Document (SRD). 
 Consente agli sviluppatori di integrare facilmente i contenuti ufficiali e open source in applicazioni, siti web e virtual tabletop
 (https://www.dnd5eapi.co/api/2014/spells - API)
+
+Tool per convertire da JSON a TypeScript (linguaggio di Angular): https://transform.tools/json-to-typescript
+(vedi file spell.ts su model)
+
+
+ng generate interface nome-interfaccia: per generare una interfaccia 
+ng generate service nome-servizio: per creare 2 file di servizio
+
+
+Domanda a Copilot: https://copilot.microsoft.com/shares/zsmEX4UA4scKr79xEyMHo
+Perché quando eseguo il commando ng generate component mi genera 4 file e a cosa servono?
+
