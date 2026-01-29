@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Spell } from '../../model/spell';
+import { SpellDetail } from '../../model/spell-detail';
 
 @Injectable({
   providedIn: 'root',
@@ -16,7 +17,7 @@ export class SpellService {
     .then(spells => spells.results);
   }
 
-  getSpellByIndex(index: string){
+  getSpellByIndex(index: string): Promise<SpellDetail>{
     const selectedSpellUrl = this.spellsURL + '/' + index;   //il mio index è leo (vedi detail-component.ts)
     return fetch (selectedSpellUrl)
     .then(resp => resp.json())   

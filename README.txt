@@ -34,3 +34,8 @@ ng generate service nome-servizio: per creare 2 file di servizio
 Domanda a Copilot: https://copilot.microsoft.com/shares/zsmEX4UA4scKr79xEyMHo
 Perché quando eseguo il commando ng generate component mi genera 4 file e a cosa servono?
 
+
+npm run build - 
+
+
+TypeScript - https://www.typescriptlang.org/docs/handbook/intro.html
