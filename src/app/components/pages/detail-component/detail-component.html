@@ -1,1 +1,4 @@
-<p>detail-component works!</p>
+<h3>{{spell()?.name}}</h3>
+@for (paragraph of spell()?.desc; track $index) {
+    <p>{{paragraph}}</p>
+}

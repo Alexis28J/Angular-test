@@ -15,5 +15,11 @@ export class SpellService {
     .then(resp => resp.json())
     .then(spells => spells.results);
   }
+
+  getSpellByIndex(index: string){
+    const selectedSpellUrl = this.spellsURL + '/' + index;   //il mio index è leo (vedi detail-component.ts)
+    return fetch (selectedSpellUrl)
+    .then(resp => resp.json())   
+  }
   
 }

@@ -7,11 +7,11 @@ import { NotFoundComponent } from './components/pages/not-found-component/not-fo
 export const routes: Routes = [   //const routes è un array di oggetti di tipo Routes
     //Routes è un'interfaccia di Angular che definisce la struttura delle rotte nell'applicazione
     {
-        path: '',   //path vuoto indica la rotta principale
+        path: '',   //path vuoto indica la rotta (pagina) principale
         component: HomeComponent  //il componente associato a questa rotta
     },
     {
-        path: 'detail',   //il path è meglio scriverlo in minusculo
+        path: 'detail/:leonardo', //il path è meglio scriverlo in minusculo  //leonardo è il nome della variabile (il nome si può cambiare)
         component: DetailComponent
     },
     {

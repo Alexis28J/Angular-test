@@ -1,6 +1,9 @@
-@for (spell of spells(); track $index){
-    <div>
+<div class="card-container">
+@for (element of spells(); track $index){
+    <!-- <div>
         <span>{{spell.name}}</span>
         <span>{{spell.level}}</span>
-    </div>
+    </div> -->
+    <app-card-component [spell]="element"></app-card-component>
 }
+</div>
